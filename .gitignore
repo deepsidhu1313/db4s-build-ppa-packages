@@ -1,0 +1,7 @@
+sqlitebrowser-deb-packaging/
+build/
+revno
+lastrevno
+sqlitebrowser/
+debuild.xp
+
