@@ -45,6 +45,7 @@ then
   echo "sqlitebrowser git repo found under ${working_dir}/sqlitebrowser"
   cd "${working_dir}/sqlitebrowser"
   echo "pulling latest code"
+  git clean -dffx #as suggested by @justinclift
   git pull
 else
   echo "Warning! DB4S git repo not found under ${working_dir}/sqlitebrowser"
